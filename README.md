@@ -1,10 +1,12 @@
 # Java-HugeInteger
 This was for my Data Structures and Algorithms Lab.
-##Description: 
+
+#Description: 
 The range of integers that can be represented in Java using a primitive data type is only from −263 to 263 − 1. What if we need to manipulate integer values beyond this range?
 In this assignment you will write a HugeInteger class which is able to represent arbitrar- ily large integer numbers. This class must implement arithmetic operations on integers such as addition, subtraction, multiplication and comparison. You have to implement this class without using Java predefined classes, unless specified otherwise.
 Additionally, you have to measure experimentally the running times of the operations implemented in your HugeInteger class and compare them with the measured running times of the corresponding operations provided by java.math.BigInteger class.
-##Specifications:
+
+#Specifications:
 The class HugeInteger must contain at least the following methods:
 1) public HugeInteger add(HugeInteger h): Returns a new HugeInteger repre- senting the sum of this HugeInteger and h.
 2) public HugeInteger subtract(HugeInteger h): Returns a new HugeInteger representing the difference between this HugeInteger and h.
